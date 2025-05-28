@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTech | Tutoriales</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='%233b82f6' d='M256 0c141.4 0 256 114.6 256 256S397.4 512 256 512 0 397.4 0 256 114.6 0 256 0zm0 96c-88.4 0-160 71.6-160 160s71.6 160 160 160 160-71.6 160-160S344.4 96 256 96zm0 48c61.9 0 112 50.1 112 112s-50.1 112-112 112-112-50.1-112-112S194.1 144 256 144z'/></svg>" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>EduTech</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Inicio</a></li>
+                    <li><a href="#tutorials" class="nav-link">Tutoriales</a></li>
+                    <li><a href="#about" class="nav-link">Acerca</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <div class="hero-particles"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Domina las herramientas</span>
+                    <br>de productividad
+                </h1>
+                <p class="hero-subtitle">
+                    Explore nuestros tutoriales gratuitos sobre Google Workspace y Microsoft Office, diseñados para estudiantes que buscan mejorar sus habilidades digitales.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn-primary" onclick="scrollToSection('tutorials')">
+                        <span>Explorar Tutoriales</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-office">
+                    <i class="fab fa-microsoft"></i>
+                    <span>Office 365</span>
+                </div>
+                <div class="floating-card card-google">
+                    <i class="fab fa-google"></i>
+                    <span>Workspace</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="tutorials" class="tutorials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestros Tutoriales</h2>
+                    <p class="section-subtitle">Contenido educativo de alta calidad para estudiantes</p>
+                </div>
+                
+                <div class="team-section">
+                    <div class="team-header">
+                        <h3 class="team-title">Equipo 1 - Erick y Manuel</h3>
+                        <p class="team-description">Google Workspace y Microsoft Office</p>
+                    </div>
+                    <div class="tutorials-grid">
+                        <div class="tutorial-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-balance-scale"></i> <!-- Icono actualizado -->
+                                </div>
+                                <h4>Similitudes entre Google y Office</h4>
+                            </div>
+                            <div class="card-thumbnail">
+                                <img src="https://www.comparapps.com/wp-content/uploads/2023/07/Microsoft-365-vs-Google-Workspace.png" alt="Excel vs Google Sheets" loading="lazy">
+                                <div class="play-overlay">
+                                    <button class="play-btn" onclick="openVideo('equipo1-video1')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    En este video, exploramos las similitudes y diferencias entre las aplicaciones de Office y Google. Descubre cuál es la mejor opción para tus necesidades de productividad.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Google</span>
+                                    <span class="tag">Office</span>
+                                    <span class="tag">Productividad</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tutorial-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-exchange-alt"></i> <!-- Icono actualizado -->
+                                </div>
+                                <h4>Diferencias entre Google y Office</h4>
+                            </div>
+                            <div class="card-thumbnail">
+                                <img src="https://www.wpbeginner.com/wp-content/uploads/2018/07/google-workspace-vs-microsoft-365-comparison-in-post.png" alt="Word vs Google Docs" loading="lazy">
+                                <div class="play-overlay">
+                                    <button class="play-btn" onclick="openVideo('equipo1-video2')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    En este video, te guiamos a través de los menús y funciones de las aplicaciones de Office y Google. Aprende a encontrar lo que necesitas y a aprovechar al máximo estas herramientas.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Excel</span>
+                                    <span class="tag">Sheets</span>
+                                    <span class="tag">Menus</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tutorial-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-file-code"></i> <!-- Icono actualizado -->
+                                </div>
+                                <h4>Tipos de archivo (extensiones)</h4>
+                            </div>
+                            <div class="card-thumbnail">
+                                <img src="https://inkscape.app/wp-content/uploads/vectores-archivos.webp" alt="PowerPoint vs Google Slides" loading="lazy">
+                                <div class="play-overlay">
+                                    <button class="play-btn" onclick="openVideo('equipo1-video3')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    En este video, exploramos los diferentes formatos de archivos y sus extensiones, incluyendo .docx, .xlsx, .pptx, .pdf y más.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">.exe</span>
+                                    <span class="tag">.bat</span>
+                                    <span class="tag">extensiones</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <div class="team-header">
+                        <h3 class="team-title">Equipo 2 - Zuriel, Ulises y Daniel</h3>
+                        <p class="team-description">Google Workspace y Microsoft Office</p>
+                    </div>
+                    <div class="tutorials-grid">
+                        <div class="tutorial-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-handshake"></i> <!-- Icono actualizado -->
+                                </div>
+                                <h4>Similitudes entre Google y Office</h4>
+                            </div>
+                            <div class="card-thumbnail">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaxBGAkt90AJDhQrmwaEdOLuCmd07OF1MCEw&s" alt="Similitudes entre plataformas" loading="lazy">
+                                <div class="play-overlay">
+                                    <button class="play-btn" onclick="openVideo('equipo2-video1')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    Descubre las características compartidas entre las herramientas de Google Workspace y Microsoft Office, facilitando tu transición y uso híbrido.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Similitudes</span>
+                                    <span class="tag">Office</span>
+                                    <span class="tag">Google</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tutorial-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-chart-bar"></i> <!-- Icono actualizado -->
+                                </div>
+                                <h4>Microsoft PowerPoint Vs Google Sheets</h4>
+                            </div>
+                            <div class="card-thumbnail">
+                                <img src="https://cdn.atomisystems.com/uploads/2023/08/PPT-vs-Google-Slides.webp" alt="Diferencias entre plataformas" loading="lazy">
+                                <div class="play-overlay">
+                                    <button class="play-btn" onclick="openVideo('equipo2-video2')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    Análisis detallado de las diferencias clave en funcionalidad y características entre Google Sheets y Microsoft PowerPoint.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Diferencias</span>
+                                    <span class="tag">Funcionalidades</span>
+                                    <span class="tag">Exposicion</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tutorial-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-table"></i> <!-- Icono actualizado -->
+                                </div>
+                                <h4>Hojas de Calculo Vs Excel</h4>
+                            </div>
+                            <div class="card-thumbnail">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjr9L6VXvgUKwSU3uQJipvG-grPeRGoYp4Q&s" alt="Tipos de archivo" loading="lazy">
+                                <div class="play-overlay">
+                                    <button class="play-btn" onclick="openVideo('equipo2-video3')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    Exploramos las diferencias entre Google Sheets y Excel.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Archivos</span>
+                                    <span class="tag">Calculos</span>
+                                    <span class="tag">Matematicas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Sobre el Proyecto</h2>
+                        <p class="about-description">
+                            Este proyecto educativo fue desarrollado por estudiantes de preparatoria con el objetivo 
+                            de ayudar a otros estudiantes a dominar las herramientas de productividad más importantes 
+                            del mundo profesional y académico. Nuestros tutoriales cubren conceptos básicos 
+                            de Microsoft Office y Google Workspace.
+                        </p>
+                        <div class="about-features">
+                            <div class="feature">
+                                <i class="fas fa-video"></i>
+                                <span>Videos tutoriales HD</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>Hecho por estudiantes</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Contenido educativo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number">6</div>
+                                <div class="stat-label">Tutoriales</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">30</div>
+                                <div class="stat-label">Estudiantes</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">2</div>
+                                <div class="stat-label">Plataformas</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="video-modal" id="videoModal">
+        <div class="modal-overlay" onclick="closeVideo()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeVideo()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="video-container">
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+                <h3 id="videoTitle"></h3>
+                <p id="videoDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>EduTech</span>
+                </div>
+                <p class="footer-text">
+                    Proyecto educativo desarrollado por estudiantes de preparatoria
+                    <br><b>Erick, Ulises, Jesus, Daniel y Zuriel © 2025</b>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
