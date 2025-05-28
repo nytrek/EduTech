@@ -25,6 +25,12 @@ Incluye:
 
 ---
 
+## 🚀 Visita el sitio en línea
+
+👉 [https://nytrek.github.io/EduTech/](https://nytrek.github.io/EduTech/)
+
+Disponible 24/7 gracias a GitHub Pages.
+
 ## 🧑‍🏫 Autores
 
 Este proyecto fue desarrollado por estudiantes de preparatoria como parte de una actividad educativa:
@@ -34,3 +40,12 @@ Este proyecto fue desarrollado por estudiantes de preparatoria como parte de una
 - Jesús  
 - Daniel  
 - Zuriel  
+
+## 🛠️ Cómo contribuir
+
+¿Quieres mejorar el proyecto o usarlo como base para tus propios tutoriales?
+
+1. Haz un fork del repositorio.
+2. Clona tu copia local:  
+   ```bash
+   git clone https://github.com/nytrek/EduTech.git
