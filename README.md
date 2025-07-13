@@ -31,16 +31,6 @@ Incluye:
 
 Disponible 24/7 gracias a GitHub Pages.
 
-## 🧑‍🏫 Autores
-
-Este proyecto fue desarrollado por estudiantes de preparatoria como parte de una actividad educativa:
-
-- Erick  
-- Ulises  
-- Jesús  
-- Daniel  
-- Zuriel  
-
 ## 🛠️ Cómo contribuir
 
 ¿Quieres mejorar el proyecto o usarlo como base para tus propios tutoriales?
