@@ -127,32 +127,32 @@ function initializeVideoModal() {
         'equipo1-video1': {
             title: 'Similitudes entre Google y Office',
             description: 'Compara las herramientas de Google y Microsoft Office y descubre cuál se adapta mejor a tus tareas diarias.',
-            url: 'https://youtu.be/2nX14gdwE3k?feature=shared'
+            url: 'https://youtu.be/2nX14gd?feature=shared'
         },
         'equipo1-video2': {
             title: 'Diferencias entre Google y Office',
             description: 'Recorremos las funciones y menús de Word y Google Docs para que puedas trabajar de forma más eficiente.',
-            url: 'https://youtu.be/iLw1bk5-7c8?feature=shared'
+            url: 'https://youtu.be/iLw5-7c8?feature=shared'
         },
         'equipo1-video3': {
             title: 'Tipos de archivo (extensiones)',
             description: 'En este video, exploramos los diferentes formatos de archivos y sus extensiones, incluyendo .docx, .xlsx, .pptx, .pdf y más.',
-            url: 'https://youtu.be/KbEzVRwYsuk?feature=shared'
+            url: 'https://youtu.be/KbEzVRwYsfeature=shared'
         },
         'equipo2-video1': {
             title: 'Diferencias Principales entre Office y Google',
             description: 'Explora las diferencias clave entre Microsoft Office y Google Workspace en funcionalidades y uso.',
-            url: 'https://youtu.be/RvYw9T_sLiU'
+            url: 'https://youtu.be/w9T_sLiU'
         },
         'equipo2-video2': {
             title: 'Tipos de Archivos y Compatibilidad',
             description: 'Comprende los diferentes formatos de archivo y su compatibilidad entre plataformas.',
-            url: 'https://youtu.be/1uZaC_IfSDk'
+            url: 'https://youtu.be/1uZaCSDk'
         },
         'equipo2-video3': {
             title: 'Entornos de Trabajo: Microsoft vs Google',
             description: 'Análisis de los entornos de trabajo, interfaces y flujos de trabajo de ambas plataformas.',
-            url: 'https://youtu.be/_38HLSxAU1U'
+            url: 'https://youtu.be/_38HLU1U'
         }
     };
 
